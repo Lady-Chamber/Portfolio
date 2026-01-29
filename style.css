@@ -148,21 +148,7 @@ body {
     line-height: 1.5;
 }
 
-/* Responsividade */
-@media (max-width: 900px) {
-    .container-video {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .texto-video h2 {
-        font-size: 32px;
-    }
-
-    .texto-video p {
-        margin: 0 auto;
-    }
-}
 
 
 /* ================================
@@ -280,5 +266,21 @@ footer a:hover {
         width: 100%;
         font-size: 1rem;
         padding: 14px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .container-video {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto-video h2 {
+        font-size: 32px;
+    }
+
+    .texto-video p {
+        margin: 0 auto;
     }
 }
